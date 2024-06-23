@@ -1,0 +1,28 @@
+/* VideoPlayer.css */
+.video-player {
+  max-width: 800px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.video {
+  width: 100%;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  width: 100px;
+}
